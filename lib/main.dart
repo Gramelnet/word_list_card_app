@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:wordlistcardapp/db/database.dart';
 import 'package:wordlistcardapp/screens/home_screen.dart';
 
-void main () => runApp(MyApp());
+MyDatabase database;
+
+void main () {
+  database = MyDatabase();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
