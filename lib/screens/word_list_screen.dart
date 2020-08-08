@@ -90,7 +90,7 @@ class _WordListScreenState extends State<WordListScreen> {
         barrierDismissible: false,
         builder: (_) => AlertDialog(
           title: Text(selectedWord.strQuestion),
-          content: Text("削除してもいいですか？"),
+          content: Text("削除しますか？"),
           actions: <Widget>[
             FlatButton(
               child: Text("はい"),
